@@ -58,7 +58,7 @@ sudo sed -i s/\$releasever/6/g /etc/yum.repos.d/epel-apache-maven.repo
 sudo yum install -y apache-maven
 ```
 
-### Lage en klone av din Fork (av dette repoet) inn i ditt Cloud 9 miljø
+### Klone din Fork (av dette repoet) inn i ditt Cloud 9 miljø
 
 Lag en klone
 
@@ -75,7 +75,8 @@ mvn spring-boot:run
 Start en ny terminal i Cloud 9 ved å trykke (+) symbolet på tabbene
 ![Alt text](img/newtab.png  "a title")
 
-Du kan teste applikasjonen med "CURL" fra Cloud 9.
+Du kan teste applikasjonen med "CURL" fra Cloud 9. Curl gjør Http requester fra terminal/komamndlinje istedet for 
+Postman.  
 
 ```
 curl -X POST \
