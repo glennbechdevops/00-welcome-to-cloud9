@@ -11,8 +11,7 @@ Dette er en viktig satsning innen området "Open Banking" for den nye nordiske b
 Arkitekturmessig består systemet av to komponenter.
 
 * Et API, implementert ved hjelp av Spring Boot. Koden for applikasjonen ligger i dette repoet.
-* Et kjernesystem som utfører transaksjoner med andre banker, avregner mot Norges bank osv. Dere kan late som metodekall 
-som gjøres mot klassen ```ReallyShakyBankingCoreSystemService```, kommuniserer med dette systemet.
+* Et kjernesystem som utfører transaksjoner med andre banker, avregner mot Norges bank osv. Klassen ```ReallyShakyBankingCoreSystemService``` simulerer dette systemet.
 
 ## Før dere starter
 
@@ -27,8 +26,15 @@ som gjøres mot klassen ```ReallyShakyBankingCoreSystemService```, kommuniserer 
 * Brukernavnet og passordet er gitt i klasserommet
 
 * Fra hovedmenyen, søk etter tjenesten "cloud9"
-* Velg "my environments" fra venstremenyen 
+
+![Alt text](img/11.png  "a title")
+
+* Velg "your environments" fra venstremenyen hvis du ikke ser noen miljøer med ditt navn
 * Hvis du ikke ser noe å trykke på som har ditt navn, pass på at du er i rett region (gitt i klasserommet)
+* Velg "Open IDE"
+
+Du må nå vente litt mens Cloud 9 starter 
+
 * Hvis du velger "9" ikonet på øverst til venstre i hovedmenyen vil du se "AWS Explorer". Naviger gjerne litt rundt I AWS Miljøet for å bli kjent.
 * Blir kjent med IDEet-
 
