@@ -4,9 +4,7 @@
 ## Litt om eksempel-appen
 
 En norsk bank har brukt flere år og hundretalls milioner på å utvikle et moderne kjernesystem for bank og et "fremoverlent" API som nesten tilfredsstiller Directive (EU) 2015/2366 of the European Parliament and of the Council on Payment Services in the Internal Market, published 25 November 2016 også kjent som PSD.
-
-Dette er en viktig satsning innen området "Open Banking" for SkalBank.
-
+Dette er en viktig satsning innen området "Open Banking" for den nye nordiske banken BedreBank.
 Arkitekturmessig består systemet av to komponenter.
 
 * Et API, implementert ved hjelp av Spring Boot. Koden for applikasjonen ligger i dette repoet.
@@ -22,16 +20,16 @@ Dere blir også kjent med Cloud 9 utviklingsmiljøet dere skal bruke videre.
 
 ![Alt text](img/fork.png  "a title")
 
-### Sjekk ut AWS Cloud 9 miljøet ditt
-
-* Logg på Cloud 9 med en URL gitt i klasserommet, URLen kan feks se slik ut ; 
-https://eu-west-1.console.aws.amazon.com/cloud9/ide/f1ffb95326cd4a27af3bd4783e4af974
-
-![Alt text](img/login.png  "a title")
+### Sjekk ut Cloud 9 miljøet ditt i AWS og bli kjent med det
 
 * URL for innlogging er https://244530008913.signin.aws.amazon.com/console
 * Brukernavnet og passordet er gitt i klasserommet
+
+* Fra hovedmenyen, søk etter tjenesten "cloud9"
+* Velg "my environments" fra venstremenyen 
+* Hvis du ikke ser noe å trykke på som har ditt navn, pass på at du er i rett region
 * Hvis du velger "9" ikonet på øverst til venstre i hovedmenyen vil du se "AWS Explorer". Naviger gjerne litt rundt I AWS Miljøet for å bli kjent.
+* Blir kjent med IDEet-
 
 ![Alt text](img/cloud9.png  "a title")
 
