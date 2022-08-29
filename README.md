@@ -36,7 +36,7 @@ Arkitekturmessig består systemet av to komponenter.
 Du må nå vente litt mens Cloud 9 starter 
 
 * Hvis du velger "9" ikonet på øverst til venstre i hovedmenyen vil du se "AWS Explorer". Naviger gjerne litt rundt I AWS Miljøet for å bli kjent.
-* Blir kjent med IDEet-
+* Blir kjent med IDE, naviger rundt.
 
 ![Alt text](img/cloud9.png  "a title")
 
@@ -66,7 +66,7 @@ sudo yum install -y apache-maven
 
 ### Klone din Fork (av dette repoet) inn i ditt Cloud 9 miljø
 
-Lag en klone
+Fra terminalen i Cloud 9, lag en klone. 
 
 ```shell
 git clone https://github.com/≤github bruker>/00-welcome-to-cloud9.git
@@ -77,6 +77,7 @@ git clone https://github.com/≤github bruker>/00-welcome-to-cloud9.git
 cd 00-welcome-to-cloud9
 mvn spring-boot:run
 ```
+Dette vil ta litt tid. Maven må bygge applikasjonene, og laste ned alle avhengigheter osv. 
 
 Start en ny terminal i Cloud 9 ved å trykke (+) symbolet på tabbene
 ![Alt text](img/newtab.png  "a title")
