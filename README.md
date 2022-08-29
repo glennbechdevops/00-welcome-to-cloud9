@@ -1,7 +1,10 @@
 
-# LAB - CI med GitHub actions 
+# LAB - bli kjent med AWS og Cloud 9
 
 ## Litt om eksempel-appen
+
+Målet med laben er å gjøre dere kjent med AWS Cloud9 - et utviklingsverktøy vi skal bruke i lab-øvelsene. 
+Dette repositoryet inneholder en Spring Boot eksempel app. Appen ble brukt som eksamensoppgave i 2021.
 
 En norsk bank har brukt flere år og hundretalls milioner på å utvikle et moderne kjernesystem for bank og et "fremoverlent" API som nesten tilfredsstiller Directive (EU) 2015/2366 of the European Parliament and of the Council on Payment Services in the Internal Market, published 25 November 2016 også kjent som PSD.
 Dette er en viktig satsning innen området "Open Banking" for den nye nordiske banken BedreBank.
@@ -10,8 +13,6 @@ Arkitekturmessig består systemet av to komponenter.
 * Et API, implementert ved hjelp av Spring Boot. Koden for applikasjonen ligger i dette repoet.
 * Et kjernesystem som utfører transaksjoner med andre banker, avregner mot Norges bank osv. Dere kan late som metodekall 
 som gjøres mot klassen ```ReallyShakyBankingCoreSystemService```, kommuniserer med dette systemet.
-
-Dere blir også kjent med Cloud 9 utviklingsmiljøet dere skal bruke videre. 
 
 ## Før dere starter
 
@@ -27,7 +28,7 @@ Dere blir også kjent med Cloud 9 utviklingsmiljøet dere skal bruke videre.
 
 * Fra hovedmenyen, søk etter tjenesten "cloud9"
 * Velg "my environments" fra venstremenyen 
-* Hvis du ikke ser noe å trykke på som har ditt navn, pass på at du er i rett region
+* Hvis du ikke ser noe å trykke på som har ditt navn, pass på at du er i rett region (gitt i klasserommet)
 * Hvis du velger "9" ikonet på øverst til venstre i hovedmenyen vil du se "AWS Explorer". Naviger gjerne litt rundt I AWS Miljøet for å bli kjent.
 * Blir kjent med IDEet-
 
