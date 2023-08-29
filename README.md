@@ -7,6 +7,12 @@ I denne labben vil dere bli kjent med
 * Hvordan dere lager "forks" og kloner egne repoer til AWS Cloud 9 miljøene
 * Hvordan dere kan kompilere og bygge Javabaseerte applikasjoner i Cloud9 med Maven
 
+# AWS Cloud 9 
+
+AWS Cloud9 er en skybasert integrert utviklingsmiljø (IDE) fra Amazon Web Services. Denne plattformen gir utviklere muligheten til å kode, redigere og feilsøke applikasjoner direkte fra nettleseren, noe som eliminerer behovet for lokale IDE-installasjoner. Med funksjoner som sanntids samarbeid, forhåndsinnstilte utviklingsmiljøer, intelligent kodefullføring og integrasjon med AWS-tjenester, muliggjør Cloud9 en smidig og effektiv utviklingsprosess.
+
+I PGR301 bruker vi Cloud 9 så vi slipper å bruke masse tid på å konfigurere hver enkelt PC/MAC med verktøy som Docker, Java, Maven osv.  
+
 ## Litt om eksempel-appen
 
 Målet med laben er å gjøre dere kjent med AWS Cloud9 - et utviklingsverktøy vi skal bruke i lab-øvelsene. 
