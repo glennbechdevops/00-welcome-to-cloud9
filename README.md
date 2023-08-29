@@ -1,10 +1,18 @@
 
 # LAB - bli kjent med AWS og Cloud 9
 
+I denne labben vil dere bli kjent med  
+
+* Et utviklingsmiljø basert på AWS Cloud9
+* Hvordan dere lager "forks" og kloner egne repoer til AWS Cloud 9 miljøene
+* Hvordan dere kan kompilere og bygge Javabaseerte applikasjoner i Cloud9 med Maven
+
 ## Litt om eksempel-appen
 
 Målet med laben er å gjøre dere kjent med AWS Cloud9 - et utviklingsverktøy vi skal bruke i lab-øvelsene. 
 Dette repositoryet inneholder en Spring Boot eksempel app. Appen ble brukt som eksamensoppgave i 2021.
+
+beskrivelse fra eksamen: 
 
 En norsk bank har brukt flere år og hundretalls milioner på å utvikle et moderne kjernesystem for bank og et "fremoverlent" API som nesten tilfredsstiller Directive (EU) 2015/2366 of the European Parliament and of the Council on Payment Services in the Internal Market, published 25 November 2016 også kjent som PSD.
 Dette er en viktig satsning innen området "Open Banking" for den nye nordiske banken BedreBank.
