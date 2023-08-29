@@ -64,9 +64,9 @@ java -version
 ```
 Du skal få 
 ```
-openjdk 11.0.14.1 2022-02-08 LTS
-OpenJDK Runtime Environment Corretto-11.0.14.10.1 (build 11.0.14.1+10-LTS)
-OpenJDK 64-Bit Server VM Corretto-11.0.14.10.1 (build 11.0.14.1+10-LTS, mixed mode)
+openjdk version "11.0.20" 2023-07-18 LTS
+OpenJDK Runtime Environment Corretto-11.0.20.8.1 (build 11.0.20+8-LTS)
+OpenJDK 64-Bit Server VM Corretto-11.0.20.8.1 (build 11.0.20+8-LTS, mixed mode)
 ```
 
 ### Installer Maven i Cloud 9 
