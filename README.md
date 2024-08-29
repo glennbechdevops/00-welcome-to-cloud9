@@ -98,6 +98,11 @@ Vent til applikasjonen har startet
 Start en ny terminal i Cloud 9 ved å trykke (+) symbolet på tabbene
 ![Alt text](img/newtab.png  "a title")
 
+
+```
+curl er et kommandolinjeverktøy som brukes til å overføre data til eller fra en server ved hjelp av forskjellige protokoller, som HTTP, HTTPS, FTP, SFTP, og mange andre. Navnet "curl" står for "Client URL".
+```
+
 Du kan teste applikasjonen med "CURL" fra Cloud 9. Curl gjør Http requester fra terminal/komamndlinje istedet for 
 Postman.  
 
