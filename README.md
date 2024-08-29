@@ -43,9 +43,9 @@ Arkitekturmessig består systemet av to komponenter.
 
 ![Alt text](img/11.png  "a title")
 
-* Velg "your environments" fra venstremenyen hvis du ikke ser noen miljøer med ditt navn
+* Velg "My environments" fra venstremenyen hvis du ikke ser noen miljøer med ditt navn
 * Hvis du ikke ser noe å trykke på som har ditt navn, pass på at du er i rett region (gitt i klasserommet)
-* Velg "Open IDE"
+* Velg "Open in Cloud9"
 
 Du må nå vente litt mens Cloud 9 starter 
 
