@@ -105,8 +105,8 @@ forskjellige protokoller, som HTTP, HTTPS, FTP, SFTP, og mange andre. Navnet "cu
 ```
 
 Du kan teste applikasjonen med "CURL" fra Cloud 9. Curl gjør Http requester fra terminal/komamndlinje istedet for 
-Postman.  
-
+Postman. Dette API kallet overfører 1500 NOK fra konto 1 til konto 2
+ 
 ```
 curl -X POST \
 http://localhost:8080/account/1/transfer/2 \
@@ -118,7 +118,10 @@ http://localhost:8080/account/1/transfer/2 \
 }'
 ```
 
-Husk at dette er applikasjonen "Shakybank", en 500 Internal server error er svært vanlig :-)
+Husk at dette er applikasjonen "Shakybank", en 500 Internal server error er svært vanlig! Se om du kan endre koden til å feile med 500 server error med litt 
+lavere sansynlighet. Stopp applikasjonen og start på den nytt med ny "probability" for feil. Test APIet på nytt. 
+
+
 ```json
 {
   "timestamp": "2022-04-04T21:34:45.542+00:00",
