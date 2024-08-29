@@ -93,6 +93,8 @@ mvn spring-boot:run
 ```
 Dette vil ta litt tid. Maven må bygge applikasjonene, og laste ned alle avhengigheter osv. 
 
+Vent til applikasjonen har startet
+
 Start en ny terminal i Cloud 9 ved å trykke (+) symbolet på tabbene
 ![Alt text](img/newtab.png  "a title")
 
