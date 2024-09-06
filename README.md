@@ -32,8 +32,6 @@ Arkitekturmessig består systemet av to komponenter.
 - Dere trenger en GitHub Konto
 - Lag en _fork_ av dette repositoriet inn i din egen GitHub konto
 
-![Alt text](img/fork.png  "a title")
-
 ### Sjekk ut Cloud 9 miljøet ditt i AWS og bli kjent med det
 
 * URL for innlogging er https://244530008913.signin.aws.amazon.com/console
